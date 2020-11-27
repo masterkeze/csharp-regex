@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "dLU1IREcKS8I4DudulGRUSYK/0kEK6c33lZ+/F+xgl3xs+HRacxEMNLpiwM6ACwxi7wGU2ncKP/M2j7Ah5O+eQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\admin.SKY-20190805KSD\\Documents\\GitHub\\csharp-regex\\src\\Regex\\RegexLib\\RegexLib.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin.SKY-20190805KSD\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\admin.SKY-20190805KSD\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
