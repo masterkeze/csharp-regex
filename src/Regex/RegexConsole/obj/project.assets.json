@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "RegexLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/RegexLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RegexLib.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "RegexLib/1.0.0": {
+      "type": "project",
+      "path": "../RegexLib/RegexLib.csproj",
+      "msbuildProject": "../RegexLib/RegexLib.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "RegexLib >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\admin.SKY-20190805KSD\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\admin.SKY-20190805KSD\\Documents\\GitHub\\csharp-regex\\src\\Regex\\RegexLib\\RegexLib.csproj": {
+              "projectPath": "C:\\Users\\admin.SKY-20190805KSD\\Documents\\GitHub\\csharp-regex\\src\\Regex\\RegexLib\\RegexLib.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
