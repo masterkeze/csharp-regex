@@ -11,3 +11,10 @@ build/
 .vs/
 tools
 !tools/packages.config
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
+*.swp
+.gitignore~
+..gitignore.un~
